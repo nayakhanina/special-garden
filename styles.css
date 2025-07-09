@@ -1,0 +1,43 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.col-4 {
+    grid-column: span 4;
+}
+
+.col-8 {
+    grid-column: span 8;
+}
+.price-and-sum {
+  border: 2px solid rgba(144, 12, 63);
+  border-style: dotted;
+}
+
+.price {
+    border: 2px solid saddlebrown;
+    border-spacing: 5px;
+}
+
+.sum {
+    border: 2px solid red;
+}
+
+.pisition-price {
+    border: 2px solid burlywood;
+}
+
+.price-1 {
+    border: 2px solid salmon;
+}
+
+.price-2 {
+    border: 2px solid rgb(250, 162, 114);
+}
+
+.price-3 {
+    border: 2px solid rgb(250, 114, 114);
+}
+
