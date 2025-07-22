@@ -7,7 +7,7 @@ function decrementCarrot() {
 
 function incrementCarrot() {
     carrot = carrot + 1
-        document.querySelector('#carrot-count').innerHTML = carrot;
+    document.querySelector('#carrot-count').innerHTML = carrot;
 }
 
 let onion = 0;
@@ -19,7 +19,7 @@ function decrementOnion() {
 
 function incrementOnion() {
     onion = onion + 1
-        document.querySelector('#onion-count').innerHTML = onion;
+    document.querySelector('#onion-count').innerHTML = onion;
 }
 
 let tomato = 0;
@@ -31,5 +31,5 @@ function decrementTomato() {
 
 function incrementTomato() {
     tomato = tomato + 1
-        document.querySelector('#tomato-count').innerHTML = tomato
+    document.querySelector('#tomato-count').innerHTML = tomato
 }
