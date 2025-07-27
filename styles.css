@@ -12,6 +12,10 @@
     grid-column: span 8;
 }
 
+.col-1 {
+    grid-column: span 1;
+}
+
 .price-and-sum {
   border: 2px solid rgba(144, 12, 63);
   border-style: dotted;
@@ -53,3 +57,31 @@
 .tomato {
     border: 2px solid rgb(0, 0, 0);
 } 
+
+.dec:hover,
+.inc:hover {
+	background-color: #b2dff0;
+}
+
+.dec, 
+.inc {
+	background-color: #1f76a1;
+	border: none;
+	border-radius: 20px;
+	width: 40px;
+    height: 40px;
+	font-size: 1.2rem;
+	color: #333;
+	cursor: pointer;
+	transition: background-color 0.9s ease;
+}
+
+.buttons {
+    background-color: #c8e6f6;
+	border: none;
+	font-size: 20px;
+	color: #333333;
+	cursor: pointer;
+	justify-items: center;
+	align-items: center;
+}
