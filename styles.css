@@ -68,15 +68,15 @@
 	background-color: #1f76a1;
 	border: none;
 	border-radius: 20px;
-	width: 40px;
-    height: 40px;
-	font-size: 1.2rem;
+	width: 30px;
+    height: 30px;
+	font-size: 1rem;
 	color: #333;
 	cursor: pointer;
 	transition: background-color 0.9s ease;
 }
 
-.buttons {
+.button-1 {
     background-color: #c8e6f6;
 	border: none;
 	font-size: 20px;
@@ -86,5 +86,31 @@
 	align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+}
+
+.button-2 {
+    background-color: #c8e6f6;
+	border: none;
+	font-size: 20px;
+	color: #333333;
+	cursor: pointer;
+	justify-items: center;
+	align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 10px;
+}
+
+.button-3 {
+    background-color: #c8e6f6;
+	border: none;
+	font-size: 20px;
+	color: #333333;
+	cursor: pointer;
+	justify-items: center;
+	align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 10px;
 }
