@@ -12,10 +12,6 @@
     grid-column: span 8;
 }
 
-.col-1 {
-    grid-column: span 1;
-}
-
 .price-and-sum {
   border: 2px solid rgba(144, 12, 63);
   border-style: dotted;
