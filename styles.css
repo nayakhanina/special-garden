@@ -53,3 +53,36 @@
 .tomato {
     border: 2px solid rgb(0, 0, 0);
 } 
+
+.dec:hover,
+.inc:hover {
+    background-color: #b2dff0;
+}
+
+.dec, 
+.inc {
+    background-color: #1f76a1;
+    border: none;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+
+.button-1,
+.button-2,
+.button-3 {
+    background-color: #c8e6f6;
+    border: none;
+    font-size: 20px;
+    color: #333333;
+    cursor: pointer;
+	justify-items: center;
+	align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.558);
+    text-align: center;
+    padding: 10px;
+}
