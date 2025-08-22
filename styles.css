@@ -87,17 +87,35 @@
     padding: 10px;
 }
 
-.input-1,
-.input-2,
-.input-3 {
-    display: flex;
-	gap: 10px;
-	align-items: center;
+.frame-1,
+.frame-2,
+.frame-3 {
     width: 100px;
-    height: 50px;
-    border: 1px #d0d7dd;
-    background-color: #f7fafd;
+    border: 1px solid #37658d;
+    background-color: #e4f0fc;
     border-radius: 6px;
-
 }
 
+.input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ 
+}
+
+.name-1,
+.name-2,
+.name-3 {
+font-size: 17px;
+font-weight: bold;
+color: #2c3e50;
+padding: 8px
+}
+
+.button-4 {
+    background-color: #cce9f7;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #b2dff0;
+}
