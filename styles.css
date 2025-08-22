@@ -86,3 +86,18 @@
     text-align: center;
     padding: 10px;
 }
+
+.input-1,
+.input-2,
+.input-3 {
+    display: flex;
+	gap: 10px;
+	align-items: center;
+    width: 100px;
+    height: 50px;
+    border: 1px #d0d7dd;
+    background-color: #f7fafd;
+    border-radius: 6px;
+
+}
+
