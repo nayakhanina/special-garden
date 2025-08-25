@@ -86,3 +86,55 @@
     text-align: center;
     padding: 10px;
 }
+
+.frame-1,
+.frame-2,
+.frame-3 {
+    width: 100px;
+    border: 1px solid #37658d;
+    background-color: #e4f0fc;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+}
+
+.name-1,
+.name-2,
+.name-3 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 20px;
+    padding: 5px 3px 5px 3px;
+}
+
+.button-4,
+.button-5,
+.button-6 {
+    background-color: #cce9f7;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+    padding: 5px;
+}
+
+.product-prices {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.button-4:hover,
+.button-5:hover,
+.button-6:hover {
+    background-color: #b2dff0;
+}
