@@ -94,12 +94,14 @@
     border: 1px solid #37658d;
     background-color: #e4f0fc;
     border-radius: 6px;
+    padding: 5px;
 }
 
 .input {
     display: flex;
     gap: 10px;
     align-items: center;
+    padding: 5px;
 }
 
 .name-1,
@@ -108,7 +110,8 @@
     font-size: 17px;
     font-weight: bold;
     color: #2c3e50;
-    padding: 20px
+    padding: 20px;
+    padding: 5px 3px 5px 3px;
 }
 
 .button-4,
@@ -121,6 +124,7 @@
     color: #2c3e50;
     cursor: pointer;
     transition: background-color 0.9s ease;
+    padding: 5px;
 }
 
 .product-prices {
