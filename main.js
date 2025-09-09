@@ -33,3 +33,10 @@ function incrementTomato() {
     tomato = tomato + 1
     document.querySelector('#tomato-count').innerHTML = tomato
 }
+
+function pricecarrot() {
+    let carrotinput = 
+    document.querySelector("[name='carrotinput']").value;
+    sum = pricecarrot * carrot
+    document.querySelector('#pricecarrotsum').innerHTML = sum
+}

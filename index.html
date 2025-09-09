@@ -43,19 +43,19 @@
             <div class="product-prices col-4">
                 <div class='name-1'>Морковь
                     <div class='input'>
-                        <input type="text" value="" name="carrot" class="carrot frame-1" />
-                        <button class="button-4">Применить</button>
+                        <input type="text" value="" name="carrotinput" class="carrot frame-1" />
+                        <button class="button-4" onclick='pricecarrot()'>Применить</button>
                     </div>
                 </div>
                 <div class='name-2'>Лук
                     <div class='input'>
-                        <input type="text" value="" name="onion" class="onion frame-2" />
+                        <input type="text" value="" name="onioninput" class="onion frame-2" />
                         <button class="button-5">Применить</button>
                     </div>
                 </div>
                 <div class='name-3'>Томаты
                     <div class='input'>
-                        <input type="text" value="" name="tomato" class="tomato frame-3" />
+                        <input type="text" value="" name="tomatoinput" class="tomato frame-3" />
                         <button class="button-6">Применить</button>
                     </div>
                 </div>
@@ -63,9 +63,9 @@
             <div class='sum col-8'>общая сумма</div>      
         </div>
         <div class='position-price grid'>
-            <div class='price-1 col-4'>стоимость</div> 
-            <div class='price-2 col-4'>стоимость2</div>
-            <div class='price-3 col-4'>стоимость3</div>
+            <div class='price-1 col-4' id='pricecarrotsum'> стоимость</div> 
+            <div class='price-2 col-4'id='priceonionsum'>стоимость2</div>
+            <div class='price-3 col-4'id='pricetomatosum'>стоимость3</div>
         </div>
     </div>
 
